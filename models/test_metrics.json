@@ -1,0 +1,30 @@
+{
+  "test_accuracy": 0.7326732673267327,
+  "test_precision": 0.7917570290297608,
+  "test_recall": 0.7326732673267327,
+  "test_f1_score": 0.7548291593865268,
+  "confusion_matrix": [
+    [
+      11,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      1,
+      63
+    ]
+  ],
+  "classes": [
+    "CANDIDATE",
+    "CONFIRMED",
+    "FALSE POSITIVE"
+  ],
+  "timestamp": "2025-10-04T14:15:53.628045",
+  "num_samples": 101
+}

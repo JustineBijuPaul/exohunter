@@ -1,0 +1,21 @@
+{
+  "model_name": "xgboost",
+  "metrics": {
+    "accuracy": 0.4393939393939394,
+    "precision_macro": 0.3525641025641026,
+    "recall_macro": 0.3356516290726817,
+    "f1_macro": 0.32994579945799457,
+    "precision_weighted": 0.3991841491841492,
+    "recall_weighted": 0.43939393939393934,
+    "f1_weighted": 0.40622690317812266
+  },
+  "thresholds": {
+    "min_f1_macro": 0.6,
+    "min_f1_weighted": 0.6,
+    "min_accuracy": 0.65,
+    "min_precision_macro": 0.6,
+    "min_recall_macro": 0.6
+  },
+  "passed": false,
+  "timestamp": "2025-10-03T11:52:12.981351"
+}
