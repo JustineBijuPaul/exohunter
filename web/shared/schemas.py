@@ -14,7 +14,9 @@ class HealthResponse(BaseModel):
     version: str
 
 class ModelMetricsResponse(BaseModel):
-    metrics: Dict[str, Any]
+    classes: List[str]
+    feature_count: int
+    last_updated: str
 
 class ErrorResponse(BaseModel):
     error: str

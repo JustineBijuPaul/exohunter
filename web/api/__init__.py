@@ -1,4 +1,2 @@
-"""ExoHunter API Package
-
-This package contains the FastAPI application and related components.
-"""
+# filepath: exoplanet-classification-app/api/__init__.py
+# This file is intentionally left blank.

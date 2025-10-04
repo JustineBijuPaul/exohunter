@@ -1,0 +1,11 @@
+FastAPI
+uvicorn
+streamlit
+pandas
+numpy
+plotly
+joblib
+scikit-learn
+lightgbm
+xgboost
+matplotlib
