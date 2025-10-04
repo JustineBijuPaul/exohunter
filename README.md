@@ -133,6 +133,11 @@ python -m web.api.main
 
 The API will be available at `http://localhost:8000` with interactive documentation at `http://localhost:8000/docs`.
 
+### Frontend (StreamLit) Check
+```bash
+streamlit run web/streamlit/app.py
+```
+
 ### API Endpoints
 
 #### Health Check
