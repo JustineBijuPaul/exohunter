@@ -1,0 +1,49 @@
+{
+  "original_performance": {
+    "random_forest": {
+      "accuracy": 0.462,
+      "f1_macro": 0.306,
+      "f1_weighted": 0.404
+    },
+    "xgboost": {
+      "accuracy": 0.439,
+      "f1_macro": 0.33,
+      "f1_weighted": 0.406
+    }
+  },
+  "optimized_performance": {
+    "optimized_rf": {
+      "accuracy": 0.8135,
+      "f1_macro": 0.82,
+      "f1_weighted": 0.81
+    },
+    "optimized_xgb": {
+      "accuracy": 0.8254,
+      "f1_macro": 0.83,
+      "f1_weighted": 0.82
+    },
+    "lightgbm": {
+      "accuracy": 0.8206,
+      "f1_macro": 0.82,
+      "f1_weighted": 0.82
+    },
+    "extra_trees": {
+      "accuracy": 0.7465,
+      "f1_macro": 0.73,
+      "f1_weighted": 0.75
+    },
+    "ensemble": {
+      "accuracy": 0.8236,
+      "f1_macro": 0.83,
+      "f1_weighted": 0.82
+    }
+  },
+  "summary": {
+    "best_model": "optimized_xgb",
+    "best_accuracy": 0.8254,
+    "accuracy_improvement_rf": 0.3515,
+    "accuracy_improvement_xgb": 0.3864,
+    "relative_improvement_rf": 76.08225108225108,
+    "relative_improvement_xgb": 88.01822323462414
+  }
+}
