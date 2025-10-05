@@ -1,0 +1,96 @@
+{
+  "model_loading": {
+    "Optimized Random Forest": "SUCCESS",
+    "Extra Trees": "SUCCESS",
+    "LightGBM": "SUCCESS",
+    "Optimized XGBoost": "SUCCESS",
+    "Scaler": "SUCCESS",
+    "Label Encoder": "SUCCESS"
+  },
+  "train_dataset": {
+    "rows": 16916,
+    "columns": 16,
+    "status": "SUCCESS"
+  },
+  "test_dataset": {
+    "rows": 303,
+    "columns": 34,
+    "status": "SUCCESS"
+  },
+  "individual_models": {
+    "Optimized Random Forest": {
+      "accuracy": 0.93,
+      "precision": 0.9360448179271708,
+      "recall": 0.93,
+      "f1": 0.9245827774408732,
+      "status": "SUCCESS"
+    },
+    "Extra Trees": {
+      "accuracy": 0.85,
+      "precision": 0.8566923558897243,
+      "recall": 0.85,
+      "f1": 0.8228413320467122,
+      "status": "SUCCESS"
+    },
+    "LightGBM": {
+      "accuracy": 0.94,
+      "precision": 0.9395614035087719,
+      "recall": 0.94,
+      "f1": 0.9391382978723404,
+      "status": "SUCCESS"
+    },
+    "Optimized XGBoost": {
+      "status": "ERROR: Mix of label input types (string and number)"
+    }
+  },
+  "ensemble": {
+    "accuracy": 0.93,
+    "precision": 0.9360448179271708,
+    "recall": 0.93,
+    "f1": 0.9245827774408732,
+    "all_agree_pct": 87.0,
+    "status": "SUCCESS"
+  },
+  "full_dataset_test": {
+    "samples_tested": 16916,
+    "overall_accuracy": 0.9235634901868054,
+    "confusion_matrix": [
+      [
+        6742,
+        219,
+        1
+      ],
+      [
+        258,
+        2973,
+        753
+      ],
+      [
+        0,
+        62,
+        5908
+      ]
+    ],
+    "classes": [
+      "CANDIDATE",
+      "CONFIRMED",
+      "FALSE POSITIVE"
+    ],
+    "status": "SUCCESS"
+  },
+  "edge_cases": {
+    "minimum_values": "SUCCESS",
+    "maximum_values": "SUCCESS",
+    "mean_values": "SUCCESS",
+    "zero_values": "SUCCESS",
+    "batch_predictions": "SUCCESS"
+  },
+  "consistency": "SUCCESS",
+  "summary": {
+    "timestamp": "2025-10-05T20:20:35.717249",
+    "model_timestamp": "20251005_200911",
+    "tests_passed": 7,
+    "tests_total": 8,
+    "pass_rate": 87.5
+  }
+}

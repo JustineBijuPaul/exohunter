@@ -109,14 +109,14 @@ def load_models():
     
     try:
         model_files = {
-            "Extra Trees": "extra_trees_20251005_183030.joblib",
-            "LightGBM": "lightgbm_20251005_183030.joblib", 
-            "Optimized Random Forest": "optimized_rf_20251005_183030.joblib",
-            "Optimized XGBoost": "optimized_xgb_20251005_183030.joblib"
+            "Extra Trees": "extra_trees_20251005_200911.joblib",
+            "LightGBM": "lightgbm_20251005_200911.joblib", 
+            "Optimized Random Forest": "optimized_rf_20251005_200911.joblib",
+            "Optimized XGBoost": "optimized_xgb_20251005_200911.joblib"
         }
         
         # Load scaler
-        scaler_path = models_dir / "scaler_20251005_183030.joblib"
+        scaler_path = models_dir / "scaler_20251005_200911.joblib"
         if scaler_path.exists():
             try:
                 scaler = safe_load_model(scaler_path)
@@ -284,6 +284,20 @@ def main():
     
     st.markdown("---")
     
+    # Handle sample data loading BEFORE creating widgets
+    if 'pending_sample_load' in st.session_state and st.session_state.pending_sample_load:
+        sample_name = st.session_state.pending_sample_load
+        if sample_name in SAMPLE_DATA:
+            sample_values = SAMPLE_DATA[sample_name]
+            for i in range(len(FEATURE_NAMES)):
+                st.session_state[f"feature_{i}"] = float(sample_values[i])
+        st.session_state.pending_sample_load = None
+    
+    # Initialize session state for features if not exists
+    for i, feature_name in enumerate(FEATURE_NAMES):
+        if f"feature_{i}" not in st.session_state:
+            st.session_state[f"feature_{i}"] = float(FEATURE_INFO[feature_name]['default'])
+    
     # Create tabs for different input methods
     tab1, tab2, tab3, tab4 = st.tabs(["📝 Manual Input", "📄 CSV Upload", "📋 Quick Samples", "📊 History"])
     
@@ -292,11 +306,6 @@ def main():
         st.header("🎯 Enter Exoplanet Features")
         
         features = []
-        
-        # Initialize session state for features if not exists
-        for i, feature_name in enumerate(FEATURE_NAMES):
-            if f"feature_{i}" not in st.session_state:
-                st.session_state[f"feature_{i}"] = float(FEATURE_INFO[feature_name]['default'])
         
         # Create input fields in a nice layout
         col1, col2, col3 = st.columns(3)
@@ -406,9 +415,7 @@ def main():
             with cols[idx]:
                 st.subheader(sample_name)
                 if st.button(f"Load {sample_name}", key=f"load_{sample_name}"):
-                    for i, feature in enumerate(FEATURE_NAMES):
-                        st.session_state[f"feature_{i}"] = sample_values[i]
-                    st.success(f"✅ Loaded {sample_name} sample!")
+                    st.session_state.pending_sample_load = sample_name
                     st.rerun()
                 
                 if st.button(f"Predict {sample_name}", key=f"predict_{sample_name}", type="primary"):

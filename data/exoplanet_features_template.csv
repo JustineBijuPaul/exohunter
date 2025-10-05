@@ -1,0 +1,2 @@
+transit_depth,planet_radius,koi_teq,koi_insol,stellar_teff,stellar_radius,koi_smass,koi_slogg,koi_count,koi_num_transits,koi_max_sngle_ev,koi_max_mult_ev,impact_parameter,transit_duration,st_dist
+1000.0,2.5,800.0,100.0,5800.0,1.0,1.0,4.4,1.0,50.0,10.0,50.0,0.5,3.0,500.0

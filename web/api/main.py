@@ -215,14 +215,14 @@ def load_models():
     
     try:
         model_files = {
-            "Extra Trees": "extra_trees_20251004_155128.joblib",
-            "LightGBM": "lightgbm_20251004_155128.joblib",
-            "Optimized Random Forest": "optimized_rf_20251004_155128.joblib",
-            "Optimized XGBoost": "optimized_xgb_20251004_155128.joblib"
+            "Extra Trees": "extra_trees_20251005_200911.joblib",
+            "LightGBM": "lightgbm_20251005_200911.joblib",
+            "Optimized Random Forest": "optimized_rf_20251005_200911.joblib",
+            "Optimized XGBoost": "optimized_xgb_20251005_200911.joblib"
         }
         
         # Load scaler separately
-        scaler_path = models_dir / "scaler_20251004_155128.joblib"
+        scaler_path = models_dir / "scaler_20251005_200911.joblib"
         if scaler_path.exists():
             try:
                 scaler = safe_load_model(scaler_path)
@@ -233,9 +233,9 @@ def load_models():
         
         # Load selected features
         features_paths = [
-            models_dir.parent / "selected_features_20251004_155128.json",
-            models_dir.parent.parent / "selected_features_20251004_155128.json",
-            Path("models") / "selected_features_20251004_155128.json"
+            models_dir.parent / "selected_features_20251005_200911.json",
+            models_dir.parent.parent / "selected_features_20251005_200911.json",
+            Path("models") / "selected_features_20251005_200911.json"
         ]
         
         for features_path in features_paths:
@@ -249,9 +249,9 @@ def load_models():
         
         # Load training metrics
         metrics_paths = [
-            models_dir.parent / "training_results_20251004_155128.json",
-            models_dir.parent.parent / "training_results_20251004_155128.json",
-            Path("models") / "training_results_20251004_155128.json"
+            models_dir.parent / "training_results_20251005_200911.json",
+            models_dir.parent.parent / "training_results_20251005_200911.json",
+            Path("models") / "training_results_20251005_200911.json"
         ]
         
         for metrics_path in metrics_paths:
