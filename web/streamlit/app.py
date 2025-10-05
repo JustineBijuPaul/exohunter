@@ -109,14 +109,14 @@ def load_models():
     
     try:
         model_files = {
-            "Extra Trees": "extra_trees_20251004_155128.joblib",
-            "LightGBM": "lightgbm_20251004_155128.joblib", 
-            "Optimized Random Forest": "optimized_rf_20251004_155128.joblib",
-            "Optimized XGBoost": "optimized_xgb_20251004_155128.joblib"
+            "Extra Trees": "extra_trees_20251005_183030.joblib",
+            "LightGBM": "lightgbm_20251005_183030.joblib", 
+            "Optimized Random Forest": "optimized_rf_20251005_183030.joblib",
+            "Optimized XGBoost": "optimized_xgb_20251005_183030.joblib"
         }
         
         # Load scaler
-        scaler_path = models_dir / "scaler_20251004_155128.joblib"
+        scaler_path = models_dir / "scaler_20251005_183030.joblib"
         if scaler_path.exists():
             try:
                 scaler = safe_load_model(scaler_path)
@@ -311,7 +311,6 @@ def main():
                     help=info['description'],
                     min_value=float(info['min']),
                     max_value=float(info['max']),
-                    value=float(st.session_state[f"feature_{i}"]),
                     key=f"feature_{i}",
                     format="%.3f"
                 )

@@ -65,7 +65,7 @@ exoplanet-classification-app
 4. **Run the Streamlit frontend:**
    You can start the Streamlit application using:
    ```
-   streamlit run streamlit_app/app.py
+   streamlit run streamlit/app.py
    ```
 
 5. **Access the applications:**
