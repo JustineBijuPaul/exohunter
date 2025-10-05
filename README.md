@@ -2,6 +2,13 @@
 
 A comprehensive machine learning pipeline for exoplanet classification using optimized models trained on cleaned data from Kepler KOI, K2, and TESS TOI missions. Achieve **82.5% accuracy** with state-of-the-art ensemble methods.
 
+
+##Demonstration
+
+https://github.com/user-attachments/assets/4428ed07-d38d-4438-b23e-f61ee8ed1b43
+
+
+
 ## 🚀 Overview
 
 ExoHunter is an advanced exoplanet classification system that combines rigorous data cleaning, feature engineering, and optimized machine learning models to classify potential exoplanets with high accuracy. The system has undergone comprehensive optimization, improving accuracy from ~44% to **82.5%** through advanced data preprocessing and model tuning.
