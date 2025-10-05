@@ -1,0 +1,146 @@
+2025-10-05 18:04:42,066 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:04:42,067 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:04:42,067 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:04:42,068 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:04:49,858 - api.main - INFO - Total models loaded: 4
+2025-10-05 18:04:49,858 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:09:02,130 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:09:02,130 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:09:02,133 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:09:02,133 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:09:02,133 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:09:03,582 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:09:03,582 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:09:03,584 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:09:03,779 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:09:04,027 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:09:04,134 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:09:04,269 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:09:04,270 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:09:04,271 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:09:24,572 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:09:24,572 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:09:24,573 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:09:24,573 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:09:24,573 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:09:26,000 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:09:26,002 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:09:26,002 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:09:26,216 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:09:26,496 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:09:26,610 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:09:26,749 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:09:26,750 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:09:26,750 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:10:11,161 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:10:11,162 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:10:11,162 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:10:11,163 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:10:11,163 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:10:12,349 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:10:12,350 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:10:12,351 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:10:12,553 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:10:12,815 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:10:12,932 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:10:13,070 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:10:13,070 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:10:13,070 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:10:49,243 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:10:49,244 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:10:49,244 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:10:49,245 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:10:49,245 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:10:50,475 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:10:50,475 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:10:50,476 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:10:50,661 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:10:50,917 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:10:51,026 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:10:51,184 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:10:51,184 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:10:51,185 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:11:00,080 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:11:00,080 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:11:00,081 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:11:00,081 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:00,081 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:01,425 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:11:01,425 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:11:01,427 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:11:01,609 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:11:01,892 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:11:02,006 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:11:02,156 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:11:02,157 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:11:02,157 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:11:51,318 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:11:51,318 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:11:51,319 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:11:51,319 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:51,319 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:52,513 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:11:52,513 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:11:52,514 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:11:52,709 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:11:53,057 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:11:53,175 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:11:53,342 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:11:53,344 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:11:53,345 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:11:54,362 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:11:54,362 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:11:54,363 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:11:54,363 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:54,363 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:11:55,565 - api.main - INFO - ✅ Loaded scaler successfully
+2025-10-05 18:11:55,565 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:11:55,566 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:11:55,743 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:11:55,976 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:11:56,083 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:11:56,216 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:11:56,216 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:11:56,217 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:12:29,652 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:12:29,652 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:12:29,653 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:12:29,653 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:12:29,653 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:12:30,912 - api.main - INFO - [OK] Loaded scaler successfully
+2025-10-05 18:12:30,913 - api.main - INFO - ✅ Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:12:30,914 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:12:31,126 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:12:31,368 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:12:31,483 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:12:31,615 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:12:31,616 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:12:31,616 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:12:47,869 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:12:47,869 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:12:47,870 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:12:47,870 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:12:47,870 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:12:49,007 - api.main - INFO - [OK] Loaded scaler successfully
+2025-10-05 18:12:49,008 - api.main - INFO - [OK] Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:12:49,010 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:12:49,210 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:12:49,456 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:12:49,558 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:12:49,707 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:12:49,707 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:12:49,707 - api.main - INFO - ExoHunter API startup complete
+2025-10-05 18:15:46,723 - api.main - INFO - Starting ExoHunter API...
+2025-10-05 18:15:46,723 - api.main - INFO - Current working directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web
+2025-10-05 18:15:46,723 - api.main - INFO - API file location: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\web\api\main.py
+2025-10-05 18:15:46,725 - api.main - INFO - Checking path: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:15:46,726 - api.main - INFO - [OK] Found models directory: C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\trained_models
+2025-10-05 18:15:47,879 - api.main - INFO - [OK] Loaded scaler successfully
+2025-10-05 18:15:47,879 - api.main - INFO - [OK] Loaded 15 selected features from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\selected_features_20251004_155128.json
+2025-10-05 18:15:47,880 - api.main - INFO - [OK] Loaded training metrics from C:\Users\JUSTINE BIJU PAUL\Desktop\projects\exoplanet-clean\models\training_results_20251004_155128.json
+2025-10-05 18:15:48,058 - api.main - INFO - [OK] Loaded Extra Trees model successfully
+2025-10-05 18:15:48,285 - api.main - INFO - [OK] Loaded LightGBM model successfully
+2025-10-05 18:15:48,395 - api.main - INFO - [OK] Loaded Optimized Random Forest model successfully
+2025-10-05 18:15:48,561 - api.main - INFO - [OK] Loaded Optimized XGBoost model successfully
+2025-10-05 18:15:48,561 - api.main - INFO - [INFO] Total models loaded: 4
+2025-10-05 18:15:48,562 - api.main - INFO - ExoHunter API startup complete
